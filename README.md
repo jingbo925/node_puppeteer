@@ -3,3 +3,4 @@
 npm i
 npm start
 test
+ git 
