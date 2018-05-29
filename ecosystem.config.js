@@ -27,6 +27,7 @@ module.exports = {
     production : {
       user : 'duolong',
       host : '47.94.152.70',
+      port:'6666',
       ref  : 'origin/master',
       repo: 'git@oranger:jingbo925/orange.git',
       path : '/srv/www',
