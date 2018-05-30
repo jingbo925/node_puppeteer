@@ -29,8 +29,8 @@ module.exports = {
       host : '47.94.152.70',
       port:'6666',
       ref  : 'origin/master',
-      repo: 'git@github.com:jingbo925/orange.git',
-      path : '/srv/www/organer',
+      repo: 'git@oranger:jingbo925/orange.git',
+      path : '/srv/www/oranger',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     },
   }
